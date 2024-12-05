@@ -1,0 +1,82 @@
+@import url('https://font.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-color:rgb(121, 117, 117);
+    background-size: cover;
+}
+
+
+.login-form {
+    height: 90vh;
+    width: 400px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.login-form h1{
+    padding: 60px 0px 10px 0px;
+    text-align: center;
+    font-size: 32px;
+}
+.login-form h3{
+    padding: 20px 0px 35px;
+    text-align: center;
+    font-size: 14px;
+}
+.login-form table{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.acc_input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#reg_birth{
+    font-size: 18px;
+    padding-left: 180px;
+}
+.btn-area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-area button{
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn-set:active{
+    background-color: rgb(61, 135, 255);
+}
+.caption{
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
